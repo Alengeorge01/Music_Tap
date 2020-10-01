@@ -25,7 +25,7 @@
 				sound: new Howl({
 		  		src: ['sounds/clay.mp3']
 				}),
-				color: '#2ecc71'
+				color: '#2ecc72'
 			},
 			e: {
 				sound: new Howl({
@@ -43,7 +43,7 @@
 				sound: new Howl({
 		  		src: ['sounds/dotted-spiral.mp3']
 				}),
-				color: '#34495e'
+				color: '#34495f'
 			},
 			y: {
 				sound: new Howl({
@@ -177,10 +177,10 @@
 
 		function onKeyDown(event) {
 			if(keyData[event.key]){
-				var maxPoint = new Point(view.size.width, view.size.height);
+				var maximumPoint = new Point(view.size.width, view.size.height);
 				var randomPoint = Point.random();
-				var point = maxPoint * randomPoint;
-				var newCircle = new Path.Circle(point, 500)
+				var points = maximumPoint * randomPoint;
+				var newCircle = new Path.Circle(points, 500)
 				newCircle.fillColor = keyData[event.key].color;
 				keyData[event.key].sound.play();
 				circles.push(newCircle);
@@ -201,7 +201,7 @@
 		</script>
 	</head>
 	<body>
-		
+		<h1 style="position: absolute; top:45%; left:25%; color: #fff;">Press any key on the keyboard to see the magic!!</h1>
 		<canvas id="myCanvas" resize>
 			 hellooooo
 		</canvas>

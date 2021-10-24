@@ -7,6 +7,7 @@ canvas{
 body ,html{
 	height: 100%;
 	margin: 0;
+  padding: 0;
 }
 
 h1{
@@ -19,3 +20,4 @@ h1{
 	height: 10vh;
 	background-color: #654765;
 }
+

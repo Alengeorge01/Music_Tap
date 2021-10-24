@@ -8,3 +8,14 @@ body ,html{
 	height: 100%;
 	margin: 0;
 }
+
+h1{
+	font-size: 18px;
+	text-align: center;
+}
+
+.music_box{
+	width: 10vw;
+	height: 10vh;
+	background-color: #654765;
+}

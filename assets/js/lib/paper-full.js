@@ -134,6 +134,15 @@ var Base = new function() {
 		return this;
 	}
 
+	function error() {
+		for (var i = 0, l = arguments.length; i < l; i++) {
+			var src = arguments[i];
+			if (src)
+				set(this, src);
+		}
+		return this;
+	}
+
 	return inject(Base, {
 		inject: function(src) {
 			if (src) {

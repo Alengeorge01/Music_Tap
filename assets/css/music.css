@@ -7,6 +7,53 @@ canvas{
 body ,html{
 	height: 100%;
 	margin: 0;
-	padding: 0;
+  padding: 0;
 }
 
+h1{
+	font-size: 18px;
+	text-align: center;
+}
+
+.music_box{
+	width: 10vw;
+	height: 10vh;
+	background-color: #654765;
+}
+
+.student-title {
+	background-color: #1d4e89;
+	color: #ffffff;
+	box-shadow: 0px 1px 5px #232323;
+	padding: 60px 0;
+	text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+	font-size: 42px;
+  }
+  
+  .home-button {
+	cursor: pointer;
+	background: #f84437;
+	color: #fff;
+	border-radius: 0.25rem;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(248, 68, 55, 0.2);
+  }
+  
+  .table-title {
+	color: #1d4e89;
+	font-size: 32px;
+	margin-bottom: 20px;
+  }
+  
+  .label {
+	font-weight: bold;
+	font-size: 18px;
+	color: #1d4e89;
+  }
+  
+  .error-message {
+	color: #f84437;
+  }
+  
